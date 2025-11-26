@@ -14,11 +14,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #ffffff; /* Force light mode for now as design is light-themed, or keep it responsive */
-    /* keeping original dark mode vars but overriding body to be safe if user wants light theme mainly */
-    /* Actually, let's respect system preference but ensure high contrast */
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #171717;
   }
 }
 

@@ -80,7 +80,7 @@ export default function AddLinkForm({ onLinkCreated }: AddLinkFormProps) {
                                 value={targetUrl}
                                 onChange={(e) => setTargetUrl(e.target.value)}
                                 placeholder="https://example.com/very-long-url"
-                                className="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-colors"
+                                className="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-colors text-gray-900 bg-white placeholder-gray-400"
                             />
                         </div>
                     </div>
@@ -100,7 +100,7 @@ export default function AddLinkForm({ onLinkCreated }: AddLinkFormProps) {
                                 onChange={(e) => setCode(e.target.value)}
                                 placeholder="custom-alias"
                                 pattern="[A-Za-z0-9]{6,8}"
-                                className="block w-full pl-8 pr-3 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-colors"
+                                className="block w-full pl-8 pr-3 py-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-colors text-gray-900 bg-white placeholder-gray-400"
                             />
                         </div>
                         <p className="text-xs text-gray-500 mt-1.5 flex items-center gap-1">

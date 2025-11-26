@@ -47,6 +47,14 @@ export default function StatsPage() {
         fetchLink()
     }, [params.code])
 
+    useEffect(() => {
+        if (link) {
+            document.title = `Stats for ${link.code} | TinyLink`
+        } else {
+            document.title = 'TinyLink Stats'
+        }
+    }, [link])
+
     const formatDate = (date: string | null) => {
         if (!date) return 'Never'
         return new Date(date).toLocaleString(undefined, {

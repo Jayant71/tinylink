@@ -62,7 +62,7 @@ export default function LinkDashboard() {
                             placeholder="Search your links..."
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
-                            className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-colors"
+                            className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-colors text-gray-900 bg-white placeholder-gray-400"
                         />
                     </div>
                     <div className="text-sm text-gray-500 font-medium whitespace-nowrap">
